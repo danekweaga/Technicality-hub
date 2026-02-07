@@ -1,21 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact & Orders | Technicality Hub</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<section class="container">
-  <h1>Order Help & Installation Booking</h1>
+<nav>
+  <div class="container">
+    <strong>Technicality Hub</strong>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="services.html">Installation</a>
+      <a href="learn.html">Learn</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
 
-  <form>
-    <input type="text" placeholder="Full Name" required><br><br>
-    <input type="email" placeholder="Email" required><br><br>
-    <textarea placeholder="What products are you interested in?"></textarea><br><br>
-    <button class="btn">Submit Request</button>
-  </form>
-</section>
+<main>
+  <section class="container">
+    <h1>Contact Us & Order Help</h1>
+    <p style="font-size: 1.2rem; margin-bottom: 2rem; text-align: center;">
+      Have questions? Need help with an order? Want to book installation? Get in touch with us.
+    </p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+      <div class="card">
+        <h3>📞 Phone</h3>
+        <p style="font-size: 1.1rem; color: var(--accent); font-weight: 600;">+234 XXX XXX XXXX</p>
+        <p style="margin-top: 0.5rem;">Mon - Sat: 9AM - 6PM</p>
+      </div>
+
+      <div class="card">
+        <h3>📧 Email</h3>
+        <p style="font-size: 1.1rem; color: var(--accent); font-weight: 600;">info@technicalityhub.com</p>
+        <p style="margin-top: 0.5rem;">We respond within 24 hours</p>
+      </div>
+
+      <div class="card">
+        <h3>📍 Location</h3>
+        <p style="font-size: 1.1rem; color: var(--accent); font-weight: 600;">[Your Address Here]</p>
+        <p style="margin-top: 0.5rem;">Visit our showroom</p>
+      </div>
+    </div>
+
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+234 XXX XXX XXXX">
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject *</label>
+        <select id="subject" name="subject" required>
+          <option value="">Select a subject</option>
+          <option value="order">Order Inquiry</option>
+          <option value="installation">Installation Booking</option>
+          <option value="support">Technical Support</option>
+          <option value="quote">Request Quote</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" placeholder="Tell us about your needs, questions, or the products/services you're interested in..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn" style="width: 100%;">Submit Request</button>
+    </form>
+
+    <div class="content-placeholder" style="margin-top: 4rem;">
+      <h3>Social Media Links</h3>
+      <p>Add links to your social media profiles (WhatsApp, Facebook, Instagram, Twitter/X)</p>
+    </div>
+
+    <div class="content-placeholder">
+      <h3>Live Chat Widget</h3>
+      <p>Consider adding a live chat widget (e.g., WhatsApp Business, Intercom, or Tawk.to) for instant customer support</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Technicality Hub Ng Ventures. All rights reserved.</p>
+  </div>
+</footer>
 
 </body>
 </html>
