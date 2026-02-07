@@ -1,40 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shop Solar Products | Technicality Hub</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<nav class="container">
-  <a href="index.html">← Back to Home</a>
+<nav>
+  <div class="container">
+    <strong>Technicality Hub</strong>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="services.html">Installation</a>
+      <a href="learn.html">Learn</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
 </nav>
 
-<section class="container">
-  <h1>Solar Products for Sale</h1>
-  <p>Select the components you need. Installation can be added later.</p>
+<main>
+  <section class="container">
+    <h1>Solar Products for Sale</h1>
+    <p style="font-size: 1.2rem; margin-bottom: 2rem;">Select the components you need. Installation can be added later.</p>
 
-  <div>
-    <h3>Solar Panels</h3>
-    <p>High-efficiency panels designed for heat and long-term outdoor use.</p>
-    <button class="btn">View Panels</button>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-image">[Product Image Placeholder]</div>
+        <div class="product-info">
+          <h3 class="product-title">Solar Panel - 300W Monocrystalline</h3>
+          <div class="product-price">₦85,000</div>
+          <p class="product-description">High-efficiency monocrystalline panels designed for Nigerian heat and long-term outdoor use. 25-year warranty.</p>
+          <button class="btn" style="width: 100%;">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">[Product Image Placeholder]</div>
+        <div class="product-info">
+          <h3 class="product-title">Solar Panel - 400W Monocrystalline</h3>
+          <div class="product-price">₦110,000</div>
+          <p class="product-description">Premium 400W panels with superior efficiency. Perfect for maximizing power generation in limited space.</p>
+          <button class="btn" style="width: 100%;">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">[Product Image Placeholder]</div>
+        <div class="product-info">
+          <h3 class="product-title">Inverter - 2KVA Pure Sine Wave</h3>
+          <div class="product-price">₦180,000</div>
+          <p class="product-description">Stable pure sine wave inverter for sensitive electronics. Perfect for homes and small businesses.</p>
+          <button class="btn" style="width: 100%;">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">[Product Image Placeholder]</div>
+        <div class="product-info">
+          <h3 class="product-title">Inverter - 5KVA Pure Sine Wave</h3>
+          <div class="product-price">₦350,000</div>
+          <p class="product-description">High-capacity inverter for larger homes and businesses. Handles heavy loads with ease.</p>
+          <button class="btn" style="width: 100%;">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">[Product Image Placeholder]</div>
+        <div class="product-info">
+          <h3 class="product-title">Battery - 200Ah Deep Cycle</h3>
+          <div class="product-price">₦95,000</div>
+          <p class="product-description">Deep cycle battery designed for solar storage. Long lifespan and reliable performance.</p>
+          <button class="btn" style="width: 100%;">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">[Product Image Placeholder]</div>
+        <div class="product-info">
+          <h3 class="product-title">Battery - 300Ah Deep Cycle</h3>
+          <div class="product-price">₦140,000</div>
+          <p class="product-description">High-capacity battery for extended backup power. Ideal for larger systems.</p>
+          <button class="btn" style="width: 100%;">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">[Product Image Placeholder]</div>
+        <div class="product-info">
+          <h3 class="product-title">Complete Solar Kit - 2KVA System</h3>
+          <div class="product-price">₦450,000</div>
+          <p class="product-description">Complete package: 4x 300W panels, 2KVA inverter, 2x 200Ah batteries, charge controller, cables.</p>
+          <button class="btn" style="width: 100%;">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">[Product Image Placeholder]</div>
+        <div class="product-info">
+          <h3 class="product-title">Complete Solar Kit - 5KVA System</h3>
+          <div class="product-price">₦850,000</div>
+          <p class="product-description">Premium package: 8x 400W panels, 5KVA inverter, 4x 200Ah batteries, charge controller, cables.</p>
+          <button class="btn" style="width: 100%;">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-placeholder" style="margin-top: 4rem;">
+      <h3>Product Categories Filter</h3>
+      <p>Add filtering options (by category, price range, capacity) to help customers find products easily</p>
+    </div>
+
+    <div class="content-placeholder">
+      <h3>Product Comparison Tool</h3>
+      <p>Add a comparison feature so customers can compare different products side-by-side</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Technicality Hub Ng Ventures. All rights reserved.</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+      Secure checkout coming soon (Paystack / Flutterwave integration)
+    </p>
   </div>
-
-  <div>
-    <h3>Inverters</h3>
-    <p>Stable power conversion to protect your appliances.</p>
-    <button class="btn">View Inverters</button>
-  </div>
-
-  <div>
-    <h3>Battery Systems</h3>
-    <p>Energy storage for night-time use and outages.</p>
-    <button class="btn">View Batteries</button>
-  </div>
-</section>
-
-<footer class="container">
-  <p>Secure checkout coming soon (Paystack / Flutterwave)</p>
 </footer>
 
 </body>
